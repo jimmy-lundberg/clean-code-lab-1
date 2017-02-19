@@ -16,3 +16,21 @@ C:\Users\Tompa\Desktop\PointManager\PointManager\obj\Debug\PointManager.Properti
 C:\Users\Tompa\Desktop\PointManager\PointManager\obj\Debug\PointManager.csproj.GenerateResource.Cache
 C:\Users\Tompa\Desktop\PointManager\PointManager\obj\Debug\PointManager.exe
 C:\Users\Tompa\Desktop\PointManager\PointManager\obj\Debug\PointManager.pdb
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\obj\Debug\PointManager.exe
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\obj\Debug\PointManager.pdb
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\bin\Debug\PointManager.exe
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\bin\Debug\PointManager.pdb
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\bin\Debug\PointManager.Data.dll
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\bin\Debug\PointManager.Data.pdb
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\obj\Debug\PointManager.csprojResolveAssemblyReference.cache
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\obj\Debug\Views\MainWindow.g.cs
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\obj\Debug\Views\PointNavigationView.g.cs
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\obj\Debug\App.g.cs
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\obj\Debug\PointManager_MarkupCompile.cache
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\obj\Debug\PointManager_MarkupCompile.lref
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\obj\Debug\Views\MainWindow.baml
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\obj\Debug\Views\PointNavigationView.baml
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\obj\Debug\PointManager.g.resources
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\obj\Debug\PointManager.Properties.Resources.resources
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\obj\Debug\PointManager.csproj.GenerateResource.Cache

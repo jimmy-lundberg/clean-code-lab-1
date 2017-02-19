@@ -5,6 +5,12 @@ namespace PointManager.Models
     {
         public int Id { get; set; }
         private string _PositionName;
+        private double _X;
+        private double _Y;
+        private double _Z;
+        private double _HorizontalDegree;
+        private double _VerticalDegree;
+
         public string PositionName
         {
             get
@@ -18,52 +24,43 @@ namespace PointManager.Models
             }
         }
 
-        private double _cameraX;
-        public double cameraX { get { return _cameraX; }
+        public double X { get { return _X; }
             set
             {
-                _cameraX = value;
-                OnPropertyChanged("cameraX");
+                _X = value;
+                OnPropertyChanged("X");
+            }
+        }
+        
+        public double Y { get { return _Y; }
+            set
+            {
+                _Y = value;
+                OnPropertyChanged("Y");
             }
         }
 
-
-        private double _cameraY;
-        public double cameraY { get { return _cameraY; }
+        public double Z { get { return _Z; }
             set
             {
-                _cameraY = value;
-                OnPropertyChanged("cameraY");
+                _Z = value;
+                OnPropertyChanged("Z");
             }
         }
 
-
-        private double _cameraZ;
-        public double cameraZ { get { return _cameraZ; }
+        public double HorizontalDegree { get { return _HorizontalDegree; }
             set
             {
-                _cameraZ = value;
-                OnPropertyChanged("cameraZ");
+                _HorizontalDegree = value;
+                OnPropertyChanged("HorizontalDegree");
             }
         }
 
-
-        private double _cameraDegH;
-        public double cameraDegH { get { return _cameraDegH; }
+        public double VerticalDegree { get { return _VerticalDegree; }
             set
             {
-                _cameraDegH = value;
-                OnPropertyChanged("cameraDegH");
-            }
-        }
-
-
-        private double _cameraDegV;
-        public double cameraDegV { get { return _cameraDegV; }
-            set
-            {
-                _cameraDegV = value;
-                OnPropertyChanged("cameraDegV");
+                _VerticalDegree = value;
+                OnPropertyChanged("VerticalDegree");
             }
         }
     }

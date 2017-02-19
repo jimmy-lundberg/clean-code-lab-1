@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+
 namespace PointManager.Data
 {
     public class Fake_DBContext
@@ -14,10 +15,10 @@ namespace PointManager.Data
         {
             CameraPositions = new List<CameraPosition>()
             {
-                new CameraPosition() { Id = 1, PositionName =  "Alfa", cameraX = 1, cameraY = 2,  cameraZ = 0, cameraDegH = 30, cameraDegV = 31 },
-                new CameraPosition() { Id = 1, PositionName =  "Beta", cameraX = 2, cameraY = 3,  cameraZ = 1, cameraDegH = 40, cameraDegV = 41 },
-                new CameraPosition() { Id = 1, PositionName = "Delta", cameraX = 3, cameraY = 4,  cameraZ = 2, cameraDegH = 50, cameraDegV = 51 },
-                new CameraPosition() { Id = 1, PositionName = "Gamma", cameraX = 4, cameraY = 5,  cameraZ = 3, cameraDegH = 60, cameraDegV = 61 },
+                new CameraPosition() { Id = 1, PositionName =  "Alfa", X = 1, Y = 2,  Z = 0, HorizontalDegree = 30, VerticalDegree = 31 },
+                new CameraPosition() { Id = 2, PositionName =  "Beta", X = 2, Y = 3,  Z = 1, HorizontalDegree = 40, VerticalDegree = 41 },
+                new CameraPosition() { Id = 3, PositionName = "Gamma", X = 3, Y = 4,  Z = 2, HorizontalDegree = 50, VerticalDegree = 51 },
+                new CameraPosition() { Id = 4, PositionName = "Delta", X = 4, Y = 5,  Z = 3, HorizontalDegree = 60, VerticalDegree = 61 },
             };
         }      
     }

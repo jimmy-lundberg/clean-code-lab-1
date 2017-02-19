@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:UC="clr-namespace:PointManager.Views"
         xmlns:viewmodels="clr-namespace:PointManager.ViewModels"
-		Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="525">
     <Window.Resources>
         <viewmodels:MainViewModel x:Key="MVM" />
     </Window.Resources>
@@ -16,22 +16,22 @@
         <TextBlock Text="PositionName" />
         <TextBox Text="{Binding ModelCameraPosition.PositionName}" />
 
-        <TextBlock Text="cameraX" />
-        <TextBox Text="{Binding ModelCameraPosition.cameraX}" />
+        <TextBlock Text="X" />
+        <TextBox Text="{Binding ModelCameraPosition.X}" />
 
-        <TextBlock Text="cameraY" />
-        <TextBox Text="{Binding ModelCameraPosition.cameraY}" />
+        <TextBlock Text="Y" />
+        <TextBox Text="{Binding ModelCameraPosition.Y}" />
 
-        <TextBlock Text="cameraZ" />
-        <TextBox Text="{Binding ModelCameraPosition.cameraZ}" />
+        <TextBlock Text="Z" />
+        <TextBox Text="{Binding ModelCameraPosition.Z}" />
 
-        <TextBlock Text="cameraDegH" />
-        <TextBox Text="{Binding ModelCameraPosition.cameraDegH}" />
+        <TextBlock Text="HorizontalDegree" />
+        <TextBox Text="{Binding ModelCameraPosition.HorizontalDegree}" />
 
-        <TextBlock Text="cameraDegV" />
-        <TextBox Text="{Binding ModelCameraPosition.cameraDegV}" />
+        <TextBlock Text="VerticalDegree" />
+        <TextBox Text="{Binding ModelCameraPosition.VerticalDegree}" />
 
-        <Button Content="Save"  Command="{Binding SCPC}" />
+        <Button Content="Save"  Command="{Binding SaveCameraPositionCommand}" />
         
     </StackPanel>
 </Window>

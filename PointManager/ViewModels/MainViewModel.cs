@@ -2,18 +2,20 @@
 using PointManager.Models;
 using System.Windows.Input;
 using PointManager.Commands;
+
 namespace PointManager.ViewModels
 {
     public class MainViewModel : ViewModelBase
     {
+        private CameraPosition _ModelCameraPosition;
+
         public MainViewModel()
         {
-            System.Diagnostics.Debug.WriteLine("MainViewModel instans skapad: "+DateTime.Now);
+            System.Diagnostics.Debug.WriteLine("MainViewModel instans skapad: " + DateTime.Now);
             LoadModelCameraPosition();
             InitializeCommands();
         }
-
-        private CameraPosition _ModelCameraPosition;
+        
         public CameraPosition ModelCameraPosition
         {
             get { return _ModelCameraPosition; }
@@ -30,22 +32,19 @@ namespace PointManager.ViewModels
             {
                 Id = 1,
                 PositionName = "Origo",
-                cameraX = 0.35,
-                cameraY = 0,
-                cameraZ = 0,
-                cameraDegH = 0,
-                cameraDegV = 0
+                X = 0.35,
+                Y = 0,
+                Z = 0,
+                HorizontalDegree = 0,
+                VerticalDegree = 0
             };
         }
-
-        // För att poängtera att namnet är valfritt
-        // SaveCameraPositionCommand	
-        // SCPC
-        private ICommand _SCPC;
-        public ICommand SCPC
+        
+        private ICommand _SaveCameraPositionCommand;
+        public ICommand SaveCameraPositionCommand
         {
-            get { return _SCPC; }
-            set { _SCPC = value; OnPropertyChanged("SCPC"); }
+            get { return _SaveCameraPositionCommand; }
+            set { _SaveCameraPositionCommand = value; OnPropertyChanged("SaveCameraPositionCommand"); }
         }
 
 
@@ -56,7 +55,7 @@ namespace PointManager.ViewModels
 
         private void InitializeCommands()
         {
-            SCPC = new SaveCameraPositionCommand(UpdateCameraPositionFunction);
+            SaveCameraPositionCommand = new SaveCameraPositionCommand(UpdateCameraPositionFunction);
         }
 
 

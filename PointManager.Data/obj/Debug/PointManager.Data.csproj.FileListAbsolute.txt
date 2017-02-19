@@ -3,3 +3,7 @@ C:\Users\Tompa\Desktop\PointManager\PointManager.Data\bin\Debug\PointManager.Dat
 C:\Users\Tompa\Desktop\PointManager\PointManager.Data\obj\Debug\PointManager.Data.csprojResolveAssemblyReference.cache
 C:\Users\Tompa\Desktop\PointManager\PointManager.Data\obj\Debug\PointManager.Data.dll
 C:\Users\Tompa\Desktop\PointManager\PointManager.Data\obj\Debug\PointManager.Data.pdb
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager.Data\bin\Debug\PointManager.Data.dll
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager.Data\bin\Debug\PointManager.Data.pdb
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager.Data\obj\Debug\PointManager.Data.dll
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager.Data\obj\Debug\PointManager.Data.pdb
