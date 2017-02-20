@@ -53,7 +53,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Models\Camera.cs" />
+    <Compile Include="Models\MazeGenerator.cs" />
+    <Compile Include="Models\Surface.cs" />
     <Compile Include="ViewModels\PointNavigationViewModel.cs" />
+    <Compile Include="Views\MazeWindow.xaml.cs">
+      <DependentUpon>MazeWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\PointNavigationView.xaml.cs">
       <DependentUpon>PointNavigationView.xaml</DependentUpon>
     </Compile>
@@ -77,6 +83,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\MazeWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\PointNavigationView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -114,6 +124,20 @@
       <Project>{3560d345-263c-4eb1-816d-1fa6a3877c6a}</Project>
       <Name>PointManager.Data</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Base.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Inner.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Outer.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Top.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\App.xaml
-2-581776288
+3-199717977
 
-16-462581568
+201536579739
 13-373512770
-Views\MainWindow.xaml;Views\PointNavigationView.xaml;
+Views\MainWindow.xaml;Views\MazeWindow.xaml;Views\PointNavigationView.xaml;
 
 False
 

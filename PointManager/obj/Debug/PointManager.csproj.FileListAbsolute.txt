@@ -34,3 +34,9 @@ C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointMana
 C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\obj\Debug\PointManager.g.resources
 C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\obj\Debug\PointManager.Properties.Resources.resources
 C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\obj\Debug\PointManager.csproj.GenerateResource.Cache
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\obj\Debug\Views\MazeWindow.g.cs
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\obj\Debug\Views\MazeWindow.baml
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\bin\Debug\Images\Base.jpg
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\bin\Debug\Images\Inner.jpg
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\bin\Debug\Images\Outer.jpg
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\bin\Debug\Images\Top.jpg
