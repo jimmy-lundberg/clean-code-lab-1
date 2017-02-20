@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 namespace PointManager.Models
 {
-    public class MazeGenerator
+    public class MazeGenerator : ModelBase
     {
         double Base = 0, Top = 1.5, dv = 0.04;
 

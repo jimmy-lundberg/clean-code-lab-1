@@ -3,7 +3,7 @@ using System.Windows.Media.Media3D;
 
 namespace PointManager.Models
 {
-    public class Camera
+    public class Camera : ModelBase
     {
         private const double halfPi = Math.PI / 180;
         private Point3D _Position;

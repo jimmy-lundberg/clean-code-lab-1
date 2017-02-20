@@ -56,6 +56,8 @@
     <Compile Include="Models\Camera.cs" />
     <Compile Include="Models\MazeGenerator.cs" />
     <Compile Include="Models\Surface.cs" />
+    <Compile Include="ViewModelLocator.cs" />
+    <Compile Include="ViewModels\MazeViewModel.cs" />
     <Compile Include="ViewModels\PointNavigationViewModel.cs" />
     <Compile Include="Views\MazeWindow.xaml.cs">
       <DependentUpon>MazeWindow.xaml</DependentUpon>
