@@ -40,3 +40,4 @@ C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointMana
 C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\bin\Debug\Images\Inner.jpg
 C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\bin\Debug\Images\Outer.jpg
 C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\bin\Debug\Images\Top.jpg
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager\obj\Debug\App.baml

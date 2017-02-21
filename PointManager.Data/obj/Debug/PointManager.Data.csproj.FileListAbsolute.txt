@@ -7,3 +7,4 @@ C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointMana
 C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager.Data\bin\Debug\PointManager.Data.pdb
 C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager.Data\obj\Debug\PointManager.Data.dll
 C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager.Data\obj\Debug\PointManager.Data.pdb
+C:\Users\Jimmy\Desktop\Visual Studio Workspace\Clean code\PointManager\PointManager.Data\obj\Debug\PointManager.Data.csprojResolveAssemblyReference.cache

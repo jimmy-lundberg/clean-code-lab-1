@@ -3,12 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:UC="clr-namespace:PointManager.Views"
         xmlns:viewmodels="clr-namespace:PointManager.ViewModels"
-        Title="MainWindow" Height="350" Width="525">
-    <Window.Resources>
-        <viewmodels:MainViewModel x:Key="MVM" />
-    </Window.Resources>
-    
-    <StackPanel x:Name="LayoutRoot" DataContext="{StaticResource MVM}" MinHeight="300" MinWidth="300" >
+        Title="MainWindow" Height="350" Width="525"
+        DataContext="{Binding Source={StaticResource ViewModelLocator}, Path=MainViewModel}">
+
+    <StackPanel x:Name="LayoutRoot" MinHeight="300" MinWidth="300" >
         <UC:PointNavigationView />
         <TextBlock Text="Id" />
         <TextBox Text="{Binding ModelCameraPosition.Id}" />

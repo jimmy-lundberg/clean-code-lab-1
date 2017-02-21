@@ -5,6 +5,8 @@
              StartupUri="Views\MazeWindow.xaml">
              <!--StartupUri="Views\MainWindow.xaml">-->
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <local:ViewModelLocator x:Key="ViewModelLocator"></local:ViewModelLocator>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
