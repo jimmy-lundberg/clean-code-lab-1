@@ -25,23 +25,23 @@
         <StackPanel Orientation="Horizontal" >
             <StackPanel Orientation="Vertical">
                 <TextBlock Text="X" />
-                <TextBox x:Name="TextBox_X" Width="70" IsEnabled="False" />
+                <TextBox x:Name="TextBox_X" Width="70" IsEnabled="False" Text="{Binding Text_X, Mode=TwoWay}" />
             </StackPanel>
             <StackPanel Orientation="Vertical">
                 <TextBlock Text="Y" />
-                <TextBox x:Name="TextBox_Y" Width="70" IsEnabled="False" />
+                <TextBox x:Name="TextBox_Y" Width="70" IsEnabled="False" Text="{Binding Text_Y, Mode=TwoWay}" />
             </StackPanel>
             <StackPanel Orientation="Vertical">
                 <TextBlock Text="Z"  />
-                <TextBox x:Name="TextBox_Z" Width="70" IsEnabled="False" />
+                <TextBox x:Name="TextBox_Z" Width="70" IsEnabled="False" Text="{Binding Text_Z, Mode=TwoWay}" />
             </StackPanel>
             <StackPanel Orientation="Vertical">
                 <TextBlock Text="Vertical"  />
-                <TextBox x:Name="TextBox_Vertical" Width="70" IsEnabled="False" />
+                <TextBox x:Name="TextBox_Vertical" Width="70" IsEnabled="False" Text="{Binding Text_Vertical, Mode=TwoWay}" />
             </StackPanel>
             <StackPanel Orientation="Vertical">
                 <TextBlock Text="Horizontal"  />
-                <TextBox x:Name="TextBox_Horizontal" Width="70" IsEnabled="False" />
+                <TextBox x:Name="TextBox_Horizontal" Width="70" IsEnabled="False" Text="{Binding Text_Horizontal, Mode=TwoWay}" />
             </StackPanel>
         </StackPanel>
     </Grid>
